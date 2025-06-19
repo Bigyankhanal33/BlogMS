@@ -1,12 +1,14 @@
-import Navbar from "../../component/navbar/navbar"
-
+import Form from "../../component/form/Form";
+import Layout from "../../component/layout/Layout";
 
 const AddBlog = () => {
   return (
     <div>
-        <Navbar />
+      <Layout />
+      <Form type = 'Create' />
+      
     </div>
-  )
-}
+  );
+};
 
-export default AddBlog
+export default AddBlog;
